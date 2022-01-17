@@ -1,0 +1,32 @@
+
+.dropdown{
+  display: inline-block;
+}
+.dropdown h2:hover{
+  cursor: pointer;
+}
+.itemList{
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+  /* display: none; */
+  position: absolute;
+  z-index: -1;
+  transition: all ease-out 0.3s 0.2s;
+}
+
+.itemList li{
+  list-style: none;
+}
+.itemList a{
+  text-decoration: none;
+  color: initial;
+}
+
+.itemList-show{
+  transform: translateY(0);
+  pointer-events: initial;
+  opacity: 1;
+  display: block;
+  z-index: 0;
+}

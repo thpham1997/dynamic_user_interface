@@ -1,0 +1,28 @@
+{
+  "name": "dui",
+  "version": "1.0.0",
+  "description": "create objects like dropdown, toggle, ...",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thpham1997/dynamic_user_interface.git"
+  },
+  "author": "TP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thpham1997/dynamic_user_interface/issues"
+  },
+  "homepage": "https://github.com/thpham1997/dynamic_user_interface#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
