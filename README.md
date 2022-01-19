@@ -7,7 +7,7 @@ Used to create a dropdown menu
 
 Install
 ```
-npm install dropdownMenu --save
+npm install quickdrop --save
 ```
 Usage
 ```
