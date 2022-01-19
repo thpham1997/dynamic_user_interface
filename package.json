@@ -1,5 +1,5 @@
 {
-  "name": "quickdrop",
+  "name": "quickitrx",
   "version": "1.0.0",
   "description": "create objects like dropdown, toggle, ...",
   "main": "dist/main.js",
