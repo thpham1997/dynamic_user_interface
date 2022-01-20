@@ -30,3 +30,50 @@
   display: block;
   z-index: 0;
 }
+.sliderContainer{
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  /* width: 300px; */
+}
+.slider{
+  width: max-content;
+  position: relative;
+  transform: translateX(0vw);
+  transition: all ease-in-out 0.8s;
+}
+.slide{
+  display: inline-block ;
+  position: relative;
+  vertical-align: middle;
+  transition: all ease-in-out 0.8s;
+
+} 
+
+
+.forward, .backward{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-out 0.3s;
+}
+.backward:hover, .forward:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+.backward{
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.forward{
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+span{
+  font-size: max(3vw, 3rem);
+}
